@@ -7,7 +7,7 @@
   export default {
     name: "Cate",
     components:{
-    }
+    },
   }
 </script>
 

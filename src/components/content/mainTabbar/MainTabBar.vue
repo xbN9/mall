@@ -1,6 +1,6 @@
 <template>
   <tab-bar>
-    <tab-bar-item path="/home">
+    <tab-bar-item :path="home">
       <img slot="item-icon" src="~assets/img/tabbar/home2.svg">
       <img slot="item-icon-active" src="~assets/img/tabbar/home.svg">
       <div slot="item-text">首页</div>
@@ -31,6 +31,11 @@
     components:{
       TabBar,
       TabBarItem
+    },
+    data(){
+      return{
+        home:"/home"
+      }
     }
   }
 </script>
