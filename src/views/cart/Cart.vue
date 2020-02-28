@@ -1,10 +1,17 @@
 <template>
-<h1>购物车</h1>
+  <div>
+    <h1>购物车</h1>
+  </div>
 </template>
 
 <script>
   export default {
-    name: "Cart"
+    name: "Cart",
+    components:{
+    },
+    methods:{
+
+    }
   }
 </script>
 

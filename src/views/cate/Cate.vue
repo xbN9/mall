@@ -1,10 +1,13 @@
 <template>
-  <H1>分类</H1>
+  <div>
+  </div>
 </template>
 
 <script>
   export default {
-    name: "Cate"
+    name: "Cate",
+    components:{
+    }
   }
 </script>
 
