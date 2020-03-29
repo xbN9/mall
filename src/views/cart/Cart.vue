@@ -9,6 +9,10 @@
     name: "Cart",
     components:{
     },
+    data(){
+      return {
+      }
+    },
     methods:{
 
     }
